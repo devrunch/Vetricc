@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"  
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Mono:wght@400&display=swap"
+    />
+    <style>
+        html {
+    font-size: 1.5em; /* Increase base font size by 50% */
+  }
+
+  /* Optionally adjust other elements like images or margins */
+  img {
+    width: 110%; /* Increase image width slightly */
+  }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+
+  </head>
+  <body>
+    <div
+      class="w-full h-[2077px] relative bg-colors-alias-black-white-black-900 overflow-hidden flex flex-col items-end justify-start pt-[103px] px-0 pb-[205.4px] box-border gap-[46.4px] leading-[normal] tracking-[normal] text-left text-colors-alias-black-white-black-300 font-manrope mq450:gap-[23px] mq825:h-auto"
+    >
+      
+
+<nav class="bg-[#07070A] z-10 fixed left-0 top-0 w-screen  ">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="./public/logo.png" class="h-8" alt="Flowbite Logo" />
+        
+        <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap "></span> -->
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 text-gray border border-gray-100 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  ">
+        <li>
+          <a href="#" class="block py-2 px-3 " aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 ">About</a>
+        </li>
+        <li>
+          <a href="#" class=" block py-2 px-3 ">Services</a>
+        </li>
+        <li>
+          <a href="#" class=" block py-2 px-3 ">Pricing</a>
+        </li>
+        <li>
+          <a href="#" class=" block py-2 px-3 ">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      <div
+        class="w-[112.5px] rounded-[61.79px] bg-colors-alias-black-white-black-900 box-border hidden flex-row items-center justify-start py-[3.1px] px-[3px] gap-[4.9px] border-[0.6px] border-solid border-colors-alias-black-white-black-400"
+      >
+        <div
+          class="h-3.5 rounded-[61.79px] flex flex-row items-center justify-center py-[1.9px] px-1 box-border"
+        >
+          <div class="self-stretch relative leading-[130%] flex items-center">
+            Montly
+          </div>
+        </div>
+        <div
+          class="h-3.5 rounded-[61.79px] bg-colors-alias-black-white-white hidden flex-row items-center justify-center py-[1.9px] px-1 box-border whitespace-nowrap text-colors-alias-black-white-black-800"
+        >
+          <div class="relative leading-[130%]">Yearly •20% off</div>
+        </div>
+      </div>
+      <main
+        class="self-stretch flex flex-row items-start justify-end py-0 pr-[59px] pl-[60px] box-border max-w-full shrink-0 mq450:pl-5 mq450:pr-5 mq450:box-border"
+      >
+        <section
+          class="flex-1 flex flex-col items-end justify-start gap-[76.6px] max-w-full text-center text-5xl-7 text-colors-alias-black-white w-screen font-manrope mq450:gap-[19px] mq825:gap-[38px]"
+        >
+          <div
+            class="self-stretch flex flex-row items-start justify-end py-0 pr-[3vw] pl-[3vw] box-border max-w-full text-33xl-7 font-poppins mq825:pl-[3vw] mq825:box-border"
+          >
+            <div
+              class="flex-1 flex flex-col items-center justify-start pt-[50px] px-0 pb-0 box-border gap-[32.1px] max-w-full z-[1] mq825:gap-[16px] w-[90vw]"
+            >
+              <div
+                class="self-stretch flex flex-col items-center justify-center text-center py-0 gap-[42px] shrink-0 mq825:gap-[21px]  mq825:box-border "
+              >
+                <div
+                  class="self-stretch relative leading-[50.72px] text-white text-center lg:leading-[95.72px] font-black mq450:text-13xl "
+                  style="font-size: 8vh;"
+                 >
+                  Shaping the Future of Energy Storage
+                </div>
+                <div
+                  class="self-stretch relative text-[18px] leading-[25.17px] font-manrope text-colors-alias-black-white-black-100"
+                >
+                  Dive into how deMITasse Energies is tackling climate change
+                  head-on by developing advanced long-duration energy storage
+                  solutions. Explore our mission to power a sustainable future.
+                </div>
+              </div>
+              <div class="flex flex-row items-center justify-center gap-[9.9px] w-full ">
+                <button
+                  class="cursor-pointer [border:none] py-[6.2px] px-3 bg-colors-alias-main-brand-500 rounded-[4.94px] flex flex-row items-center justify-center gap-[4.9px] whitespace-nowrap hover:bg-yellowgreen-100"
+                >
+                  <div
+                    class="relative text-sm-8 leading-[12px] py-1 font-manrope text-colors-alias-main-brand-900 text-left inline-block min-w-[29px]"
+                  >
+                    Join Us
+                  </div>
+                  <img
+                    class="h-[5.9px] w-[3.2px] relative"
+                    alt=""
+                    src="/public/button-icon.svg"
+                  />
+                </button>
+                <button
+                  class="cursor-pointer py-[5px] px-3 bg-[transparent] rounded-[4.94px] flex flex-row items-center justify-center border-[0.6px] border-solid border-gray-700 hover:bg-gainsboro-300 hover:box-border hover:border-[0.6px] hover:border-solid hover:border-gainsboro-200"
+                >
+                  <div
+                    class="relative  text-sm-8 leading-[12px] py-1 font-manrope text-colors-alias-black-white-white text-left inline-block min-w-[56px]"
+                  >
+                    Contact sales
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="self-stretch flex flex-row items-start justify-center py-0 pr-[8px] pl-[8px] box-border max-w-full"
+          >
+            <div
+              class="w-[580px] flex flex-col items-start justify-start gap-[22.8px] max-w-full"
+            >
+              <b
+                class="self-stretch relative leading-[29.7px] shrink-0 mq450:text-11xl-6 mq450:leading-[28px]"
+                >Solving Critical Energy Challenges</b
+              >
+              <div
+                class="self-stretch relative text-[18px] leading-[18.57px] font-dm-sans text-darkgray shrink-0"
+              >
+                At deMITasse Energies, we confront the critical obstacles facing
+                the renewable energy sector head-on. Our advanced long-duration
+                energy storage technology provides innovative solutions to
+                ensure a stable and sustainable energy future. Here are the key
+                challenges we address:
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-screen flex flex-row items-start justify-center py-0  box-border max-w-full text-left text-4xs-7 font-poppins"
+          >
+            <div
+              class="w-[90vw] flex flex-row flex-wrap items-start justify-center gap-[41px_45.1px] min-h-[135px] max-w-full mq675:gap-[23px]"
+            >
+              <div
+                class="h-[47px] w-[70vw] flex flex-col items-start justify-start pt-0 px-0 pb-0 box-border gap-[4.9px] min-w-[155px]"
+              >
+                <div
+                  class="self-stretch flex flex-row items-center justify-start gap-[4.9px]"
+                >
+                  <div
+                    class="h-[18.5px] w-[20px]  shadow-[0px_-1.2px_1.24px_19.77px_rgba(255,_255,_255,_0.05)_inset] [backdrop-filter:blur(1.24px)] rounded-[3.09px] bg-gray-600 overflow-hidden shrink-0 flex flex-row items-center justify-center pt-[5.5px] px-0 pb-0 box-border relative gap-[3.0896735191345215px]"
+                  >
+                    <img
+                      class="h-[7.5px] w-[5px] relative"
+                      alt=""
+                      src="/public/vector-1.svg"
+                    />
+
+                    <div
+                      class="h-[10.9px] w-[23.5px] absolute !m-[0] top-[13.5px] left-[calc(50%_-_11.75px)] [filter:blur(12.03px)] rounded-[50%] bg-yellowgreen-200"
+                    ></div>
+                  </div>
+                  <b class="flex-1 text-[14px] relative">Intermittency Challenge</b>
+                </div>
+                <div
+                  class="self-stretch relative text-[11px] leading-[13.89px] font-light text-colors-alias-black-white-black-100"
+                >
+                  Addressing renewable energy unpredictability with
+                  long-duration storage for consistent supply.
+                </div>
+              </div>
+              <div
+                class="h-[47px] w-[70vw] flex flex-col items-start justify-start pt-0 px-0 pb-0 box-border gap-[4.9px] min-w-[155px]"
+              >
+                <div
+                  class="self-stretch flex flex-row items-center justify-start gap-[4.9px]"
+                >
+                  <div
+                    class="h-[18.5px] w-[18.5px] shadow-[0px_-1.2px_1.24px_19.77px_rgba(255,_255,_255,_0.05)_inset] [backdrop-filter:blur(1.24px)] rounded-[3.09px] bg-gray-600 overflow-hidden shrink-0 flex flex-row items-center justify-between pt-[5.5px] px-0 pb-0 box-border relative gap-[-6.83px]"
+                  >
+                    <img
+                      class="h-[10.2px] w-[8.7px] relative hidden z-[1]"
+                      alt=""
+                      src="/public/vector.svg"
+                    />
+
+                    <img
+                      class="h-[7.5px] w-[20px] relative"
+                      alt=""
+                      src="/public/vector-1.svg"
+                    />
+
+                    <div
+                      class="h-[10.9px] w-[23.5px] absolute !m-[0] top-[13.5px] left-[calc(50%_-_11.75px)] [filter:blur(12.03px)] rounded-[50%] bg-yellowgreen-200"
+                    ></div>
+                  </div>
+                  <b class="flex-1 relative">Grid Stability</b>
+                </div>
+                <div
+                  class="self-stretch relative text-[11px] leading-[13.89px] font-medium font-urbanist text-colors-alias-black-white-black-100"
+                >
+                  Efficiently storing surplus renewable energy to minimize
+                  wastage and optimize grid management.
+                </div>
+              </div>
+              <div
+                class="h-[47px] w-[70vw] flex flex-col items-start justify-between pt-0 px-0 pb-[0.1px] box-border min-w-[155px]"
+              >
+                <div
+                  class="self-stretch flex flex-row items-center justify-start gap-[4.9px]"
+                >
+                  <div
+                    class="h-[18.5px] w-[18.5px] shadow-[0px_-1.2px_1.24px_19.77px_rgba(255,_255,_255,_0.05)_inset] [backdrop-filter:blur(1.24px)] rounded-[3.09px] bg-gray-600 overflow-hidden shrink-0 flex flex-row items-center justify-center pt-[5.5px] px-0 pb-0 box-border relative gap-[3.0896735191345215px]"
+                  >
+                    <img
+                      class="h-[7.5px] w-[5px] relative"
+                      alt=""
+                      src="/public/vector-1.svg"
+                    />
+
+                    <div
+                      class="h-[10.9px] w-[23.5px] absolute !m-[0] top-[13.5px] left-[calc(50%_-_11.75px)] [filter:blur(12.03px)] rounded-[50%] bg-yellowgreen-200"
+                    ></div>
+                  </div>
+                  <b class="flex-1 relative">Duck Curve Management</b>
+                </div>
+                <div
+                  class="self-stretch relative text-[11px] leading-[13.89px] font-medium font-urbanist text-colors-alias-black-white-black-100"
+                >
+                  Managing solar generation peaks with innovative energy storage
+                  solutions.
+                </div>
+              </div>
+              <div
+                class="w-[70vw] flex flex-col items-start justify-start pt-0 px-0 pb-[3.5px] box-border gap-[4.9px] min-w-[155px]"
+              >
+                <div
+                  class="self-stretch flex flex-row items-center justify-start gap-[4.9px]"
+                >
+                  <div
+                    class="h-[18.5px] w-[18.5px] shadow-[0px_-1.2px_1.24px_19.77px_rgba(255,_255,_255,_0.05)_inset] [backdrop-filter:blur(1.24px)] rounded-[3.09px] bg-gray-600 overflow-hidden shrink-0 flex flex-row items-center justify-center pt-[5.5px] px-0 pb-0 box-border relative gap-[3.0896735191345215px]"
+                  >
+                    <img
+                      class="h-[7.5px] w-[5px] relative"
+                      alt=""
+                      src="/public/vector-1.svg"
+                    />
+
+                    <div
+                      class="h-[10.9px] w-[23.5px] absolute !m-[0] top-[13.5px] left-[calc(50%_-_11.75px)] [filter:blur(12.03px)] rounded-[50%] bg-yellowgreen-200 "
+                    ></div>
+                  </div>
+                  <b class="flex-1 relative">Baseline Power Integration</b>
+                </div>
+                <div
+                  class="self-stretch relative text-[11px] leading-[13.89px] font-medium font-urbanist text-colors-alias-black-white-black-100"
+                >
+                  Seamlessly integrating renewables into grids, overcoming
+                  baseload power challenges.
+                </div>
+              </div>
+              <div
+                class="h-[47px] w-[70vw] flex flex-col items-start justify-between min-w-[155px]"
+              >
+                <div
+                  class="self-stretch flex flex-row items-center justify-start gap-[4.9px]"
+                >
+                  <div
+                    class="h-[18.5px] w-[18.5px] shadow-[0px_-1.2px_1.24px_19.77px_rgba(255,_255,_255,_0.05)_inset] [backdrop-filter:blur(1.24px)] rounded-[3.09px] bg-gray-600 overflow-hidden shrink-0 flex flex-row items-center justify-center pt-[5.5px] px-0 pb-0 box-border relative gap-[3.0896735191345215px]"
+                  >
+                    <img
+                      class="h-[7.5px] w-[5px] relative"
+                      alt=""
+                      src="/public/vector-1.svg"
+                    />
+
+                    <div
+                      class="h-[10.9px] w-[23.5px] absolute !m-[0] top-[13.5px] left-[calc(50%_-_11.75px)] [filter:blur(12.03px)] rounded-[50%] bg-yellowgreen-200"
+                    ></div>
+                  </div>
+                  <b class="flex-1 relative">Climate Change Resilience</b>
+                </div>
+                <div
+                  class="self-stretch relative text-[11px] leading-[13.89px] font-medium font-urbanist text-colors-alias-black-white-black-100"
+                >
+                  Enhancing resilience by supporting a smooth transition to
+                  sustainable energy solutions.
+                </div>
+              </div>
+              <div
+                class="h-[47px] w-[70vw] flex flex-col items-start justify-start pt-0 px-0 pb-0 box-border gap-[4.9px] min-w-[155px]"
+              >
+                <div
+                  class="self-stretch flex flex-row items-center justify-start gap-[4.9px]"
+                >
+                  <div
+                    class="h-[18.5px] w-[18.5px] shadow-[0px_-1.2px_1.24px_19.77px_rgba(255,_255,_255,_0.05)_inset] [backdrop-filter:blur(1.24px)] rounded-[3.09px] bg-gray-600 overflow-hidden shrink-0 flex flex-row items-center justify-between pt-[1.8px] px-0 pb-0 box-border relative gap-[3.0896735191345215px]"
+                  >
+                    <img
+                      class="h-[15px] w-5 relative overflow-hidden shrink-0"
+                      loading="lazy"
+                      alt=""
+                      src="/public/chevronright.svg"
+                    />
+
+                    <div
+                      class="h-[10.9px] w-[23.5px] absolute !m-[0] top-[13.5px] left-[calc(50%_-_11.75px)] [filter:blur(12.03px)] rounded-[50%] bg-yellowgreen-200 z-[1]"
+                    ></div>
+                  </div>
+                  <b class="flex-1 relative">Curtailment Mitigation</b>
+                </div>
+                <div
+                  class="self-stretch relative text-5xs-4 leading-[9.89px] font-medium font-urbanist text-colors-alias-black-white-black-100"
+                >
+                  Efficiently storing surplus renewable energy to minimize
+                  wastage and optimize grid management.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="self-stretch flex flex-col items-end justify-start gap-[22.9px] text-[11px]"
+          >
+            <div
+              class="self-stretch flex flex-row items-start justify-center py-0 px-5"
+            >
+              <b
+                class="w-[151px] relative leading-[16px] flex items-center justify-center shrink-0"
+                >Trusted by the world leaders</b
+              >
+            </div>
+            <div
+              class="self-stretch flex flex-row items-start justify-center gap-[22.9px] shrink-0 mq825:flex-wrap"
+            >
+              <img
+                class="h-[24.7px] w-[124.8px] relative overflow-hidden shrink-0"
+                loading="lazy"
+                alt=""
+                src="/public/logo.svg"
+              />
+
+              <div
+                class="w-[86.5px] flex flex-col items-start justify-start pt-[3.4px] px-0 pb-0 box-border"
+              >
+                <img
+                  class="self-stretch h-[18.5px] relative max-w-full overflow-hidden shrink-0"
+                  alt=""
+                  src="/public/logo-1.svg"
+                />
+              </div>
+              <img
+                class="self-stretch w-[114.9px] relative max-h-full overflow-hidden shrink-0 min-h-[25px]"
+                alt=""
+                src="/public/logo-2.svg"
+              />
+
+              <img
+                class="h-[24.7px] w-[134.7px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/logo-3.svg"
+              />
+
+              <div
+                class="w-[98.9px] flex flex-col items-start justify-start pt-[3.4px] px-0 pb-0 box-border"
+              >
+                <img
+                  class="self-stretch h-[18.5px] relative max-w-full overflow-hidden shrink-0"
+                  alt=""
+                  src="/public/logo-4.svg"
+                />
+              </div>
+              <img
+                class="h-[24.7px] w-[95.8px] relative overflow-hidden shrink-0"
+                alt=""
+                src="/public/logo-5.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="self-stretch flex flex-row items-center justify-center py-0  box-border max-w-full mq825:pl-[9px] mq825:box-border"
+          >
+            <div
+              class="flex-1 flex flex-col items-center justify-center gap-[42.9px] max-w-full mq825:gap-[21px]"
+            >
+              <div
+                class="self-stretch flex flex-col items-center justify-center gap-[23.4px] max-w-full"
+              >
+                <div
+                  class="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full"
+                >
+                  <div
+                    class="w-[428px] relative leading-[29.66px] font-extrabold flex items-center justify-center shrink-0 max-w-full mq450:text-xl mq450:leading-[24px]"
+                  >
+                    Revolutionizing Energy Storage
+                  </div>
+                </div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-xs-1 text-darkgray font-dm-sans"
+                >
+                  <div
+                    class="w-[428px] relative leading-[15.57px] flex items-center justify-center shrink-0 max-w-full"
+                  >
+                    Discover how deMITasse Energies is pioneering long-duration
+                    energy storage solutions to make renewable energy truly
+                    reliable and sustainable.
+                  </div>
+                </div>
+                <div
+                  class="self-stretch flex flex-row flex-wrap items-start justify-center py-[13px] px-0 gap-[17px] z-[1] text-left text-3xs text-colors-alias-main-brand-500"
+                >
+                  <div
+                    class="flex-1 [backdrop-filter:blur(15.94px)] rounded-[7.42px] bg-gray-800 box-border overflow-hidden flex flex-col items-start justify-start pt-3 px-[11px] pb-4 gap-[30.1px] min-w-[148px] border-[0.3px] border-solid border-colors-alias-black-white-white"
+                  >
+                    <div
+                      class="flex flex-row items-start justify-start py-0 px-px"
+                    >
+                      <div
+                        class="relative font-semibold inline-block min-w-[126px]"
+                      >
+                        Thermo-Chemical Storage
+                      </div>
+                    </div>
+                    <div
+                      class="self-stretch flex flex-row items-start justify-start py-0 pr-[3px] pl-px text-lgi-8 text-colors-alias-black-white-white"
+                    >
+                      <div class="flex-1 relative font-semibold">
+                        Cutting-Edge Technology
+                      </div>
+                    </div>
+                    <div
+                      class="w-[190px] relative text-xs-1 leading-[15.57px] font-dm-sans text-darkgray flex items-center"
+                    >
+                      Our thermo-chemical energy storage technology efficiently
+                      stores energy for months with zero dissipation, making
+                      renewables dependable.
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1 [backdrop-filter:blur(15.94px)] rounded-[7.42px] bg-gray-800 box-border overflow-hidden flex flex-col items-start justify-start pt-3 px-[11px] pb-[53px] gap-[11.6px] min-w-[148px] border-[0.3px] border-solid border-colors-alias-black-white-white"
+                  >
+                    <div
+                      class="flex flex-row items-start justify-start py-0 px-px"
+                    >
+                      <div
+                        class="relative font-semibold inline-block min-w-[118px]"
+                      >
+                        Cost-Effective Solutions
+                      </div>
+                    </div>
+                    <div
+                      class="self-stretch flex flex-row items-start justify-start py-0 pr-[3px] pl-px text-lgi-8 text-colors-alias-black-white-white"
+                    >
+                      <div class="flex-1 relative font-semibold">
+                        Affordable and Efficient
+                      </div>
+                    </div>
+                    <div
+                      class="w-[190px] relative text-xs-1 leading-[15.57px] font-dm-sans text-darkgray flex items-center"
+                    >
+                      Our innovative storage solutions are 4-8 times cheaper
+                      than traditional alternatives, providing a cost-effective
+                      way to achieve energy sustainability.
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1 [backdrop-filter:blur(15.94px)] rounded-[7.42px] bg-gray-800 box-border overflow-hidden flex flex-col items-start justify-start pt-3 px-[11px] pb-[53px] gap-[11.6px] min-w-[148px] border-[0.3px] border-solid border-colors-alias-black-white-white"
+                  >
+                    <div
+                      class="flex flex-row items-start justify-start py-0 px-px"
+                    >
+                      <div
+                        class="relative font-semibold inline-block min-w-[94px]"
+                      >
+                        Reliable Integration
+                      </div>
+                    </div>
+                    <div
+                      class="self-stretch flex flex-row items-start justify-start py-0 pr-[3px] pl-px text-lgi-8 text-colors-alias-black-white-white"
+                    >
+                      <div class="flex-1 relative font-semibold">
+                        Seamless Grid Integration
+                      </div>
+                    </div>
+                    <div
+                      class="w-[190px] relative text-xs-1 leading-[15.57px] font-dm-sans text-darkgray flex items-center"
+                    >
+                      Our technology seamlessly integrates with various
+                      renewable energy sources, enhancing grid stability and
+                      ensuring a reliable energy supply.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="self-stretch flex flex-row items-start justify-start relative max-w-full text-left text-lg-5 font-poppins"
+              >
+                <img
+                  class="h-[409.7px] w-[543.8px] absolute !m-[0] bottom-[-268px] left-[67.6px]"
+                  alt=""
+                  src="/public/glow-1.svg"
+                />
+
+                <div
+                  class="flex-1 rounded-[9.89px] bg-colors-alias-black-white-black-800 box-border overflow-hidden flex flex-row flex-wrap items-end justify-start py-3.5 px-[29px] gap-[40px_63.1px] min-w-[240.99px] max-w-full z-[1] border-[0.6px] border-solid border-colors-alias-main-brand-500 mq450:gap-[16px] mq825:gap-[32px]"
+                >
+                  <div
+                    class="flex-1 rounded-t-none rounded-b-[9.89px] flex flex-col items-start justify-start relative gap-[1.5px] min-w-[216px] max-w-full"
+                  >
+                    <div class="relative font-black">
+                      Ready to make a difference?
+                    </div>
+                    <div class="self-stretch relative text-3xs-9 font-manrope">
+                      <p class="m-0">&nbsp;</p>
+                      <p class="m-0">
+                        Connect with deMITasse Energies today and find out how
+                        you can be part of the clean energy revolution.
+                      </p>
+                    </div>
+                    <img
+                      class="w-[229.6px] h-[238.8px] absolute !m-[0] right-[-57px] bottom-[-99.1px] object-contain z-[1]"
+                      loading="lazy"
+                      alt=""
+                      src="/public/bottom.svg"
+                    />
+                  </div>
+                  <div
+                    class="flex flex-col items-start justify-end pt-0 px-0 pb-[16.5px]"
+                  >
+                    <button
+                      class="cursor-pointer [border:none] py-[6.2px] px-3 bg-colors-alias-main-brand-500 rounded-[4.94px] flex flex-row items-end justify-start gap-[4.9px] whitespace-nowrap hover:bg-yellowgreen-100"
+                    >
+                      <div
+                        class="relative text-3xs-9 leading-[12px] font-manrope text-black text-left inline-block min-w-[33px]"
+                      >
+                        Join Us
+                      </div>
+                      <img
+                        class="h-[10.2px] w-[10.2px] relative"
+                        alt=""
+                        src="/public/arrowupright.svg"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="self-stretch flex flex-row flex-wrap items-center justify-center gap-[19.8px] max-w-full z-[1] text-left"
+          >
+            <div
+              class="w-[333.1px] flex flex-col items-start justify-start pt-0 pb-[0.1px] px-0 box-border gap-[30.9px] max-w-full mq450:gap-[15px]"
+            >
+              <b
+                class="w-[355.5px] relative leading-[29.7px] flex items-center max-w-[107%] shrink-0 mq450:text-xl mq450:leading-[24px]"
+                >Get in touch</b
+              >
+              <div
+                class="w-[274.4px] relative text-xs-1 leading-[16px] font-dm-sans text-darkgray flex items-center"
+              >
+                Contact us for additional details or assistance.
+              </div>
+            </div>
+            <div
+              class="flex-1 flex flex-col items-start justify-start gap-[14.8px] min-w-[271px] max-w-full text-4xs-7"
+            >
+              <div
+                class="self-stretch overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[0.1px] gap-[4.9px] shrink-0"
+              >
+                <div class="self-stretch relative  leading-[14px]">Name</div>
+                <input
+                style="font-size: 15px;"
+                  class="w-full [border:none] [outline:none]  rounded-sm bg-colors-alias-black-white-black-700 self-stretch h-[28.8px] rounded-[4.94px] overflow-hidden shrink-0 flex flex-row items-center justify-start py-[7.4px] px-[9px] box-border font-manrope text-4xs-7 text-colors-alias-black-white-black-300 min-w-[250px]"
+                  placeholder="Name"
+                  type="text"
+                />
+              </div>
+              <div
+                class="self-stretch flex flex-row items-start justify-start max-w-full shrink-0"
+              >
+                <div
+                  class="flex-1 overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[0.1px] box-border gap-[4.9px] max-w-full"
+                >
+                  <div class="self-stretch relative leading-[14px]">E-mail</div>
+                  <input
+                  style="font-size: 15px;"
+                    class="w-full [border:none] [outline:none]  rounded-sm bg-colors-alias-black-white-black-700 self-stretch h-[28.8px] rounded-[4.94px] overflow-hidden shrink-0 flex flex-row items-center justify-start py-[7.4px] px-[9px] box-border font-manrope text-4xs-7 text-colors-alias-black-white-black-300 min-w-[250px]"
+                    placeholder="E-mail"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div
+                class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[4.9px] shrink-0"
+              >
+                <div class="self-stretch relative leading-[14px]">Message</div>
+                <textarea
+                  class="[border:none] bg-colors-alias-black-white-black-700 h-[112.5px] w-auto [outline:none] self-stretch rounded-[4.94px] overflow-hidden shrink-0 flex flex-row items-start justify-start pt-[7.4px] px-[9px] pb-[7px] box-border font-manrope text-4xs-7 text-colors-alias-black-white-black-300"
+                  placeholder="Add your message"
+                  rows="{6}"
+                  cols="{21}"
+                >
+                </textarea>
+              </div>
+              <button
+                class="cursor-pointer [border:none] py-[6.2px] px-5 bg-colors-alias-black-white-white self-stretch rounded-[4.94px] flex flex-row items-center justify-center hover:bg-gainsboro-100"
+              >
+                <div
+                  class="relative text-3xs-9 leading-[12px] font-manrope text-colors-alias-black-white-black-900 text-left inline-block min-w-[33px]"
+                >
+                  Submit
+                </div>
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- <footer
+        class="self-stretch [backdrop-filter:blur(6.74px)] bg-colors-alias-black-white-black-800 box-border flex flex-row items-center justify-center pt-[30px] px-5 pb-[30.9px] max-w-full text-left text-4xs-7 text-colors-alias-black-white-black-200 font-manrope border-t-[0.6px] border-solid border-colors-alias-black-white-black-600 mq450:gap-[42px] mq825:gap-[84px]"
+      >
+        <div
+          class="h-[97.6px] w-[684.7px] flex flex-col items-start justify-between max-w-full mq675:h-auto"
+        >
+          <div
+            class="self-stretch flex flex-row items-start justify-between max-w-full gap-[20px] mq675:flex-wrap"
+          >
+            <img
+              class="h-11 w-11 relative object-cover"
+              loading="lazy"
+              alt=""
+              src="/public/de-logo2@2x.png"
+            />
+
+            <div
+              class="w-[469px] flex flex-row items-center justify-between max-w-full mq450:flex-wrap"
+            >
+              <div
+                class="w-[33.9px] flex flex-row items-center justify-center pt-[4.9px] pb-[5px] pr-1 pl-[5px] box-border"
+              >
+                <div class=" leading-[14px] inline-block min-w-[24px]">
+                 <p class="text-13xl"> Home</p>
+                </div>
+              </div>
+              <div
+                class="w-[46.9px] flex flex-row items-center justify-center pt-[4.9px] px-1 pb-[5px] box-border"
+              >
+                <div class="relative leading-[14px] inline-block  ">
+                  About Us
+                </div>
+              </div>
+              <div
+                class="w-[54.9px] flex flex-row items-center justify-center pt-[4.9px] pb-[5px] pr-[3px] pl-1 box-border"
+              >
+                <div class="relative leading-[14px] inline-block min-w-[46px]">
+                  Challenges
+                </div>
+              </div>
+              <div
+                class="w-[42.9px] flex flex-row items-center justify-center pt-[4.9px] pb-[5px] pr-1 pl-[3px] box-border"
+              >
+                <div class="relative leading-[14px] inline-block min-w-[34px]">
+                  Contact
+                </div>
+              </div>
+              <div
+                class="w-[25.9px] flex flex-row items-center justify-center pt-[4.9px] pb-[5px] pr-1 pl-[5px] box-border"
+              >
+                <div class="relative leading-[14px] inline-block min-w-[16px]">
+                  FAQ
+                </div>
+              </div>
+              <div
+                class="w-[42.9px] flex flex-row items-center justify-center pt-[4.9px] pb-[5px] pr-[5px] pl-1 box-border"
+              >
+                <div class="relative leading-[14px] inline-block min-w-[33px]">
+                  Presskit
+                </div>
+              </div>
+              <div
+                class="w-[41.9px] flex flex-row items-center justify-center pt-[4.9px] pb-[5px] pr-1 pl-[5px] box-border"
+              >
+                <div class="relative leading-[14px] inline-block min-w-[32px]">
+                  Careers
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            class="self-stretch relative max-w-full overflow-hidden max-h-full"
+            loading="lazy"
+            alt=""
+            src="/public/vector-26.svg"
+          />
+
+          <div
+            class="self-stretch flex flex-row items-center justify-between gap-[20px] text-colors-alias-black-white-black-300 mq450:flex-wrap"
+          >
+            <div class="relative leading-[14px]">
+              © 2024 deMITasse Energies. All rights reserved.
+            </div>
+            <div class="w-[124.2px] flex flex-row items-center justify-between">
+              <img
+                class="h-[13.6px] w-[13.6px] relative overflow-hidden shrink-0 min-h-[14px]"
+                loading="lazy"
+                alt=""
+                src="/public/logoinstagram.svg"
+              />
+
+              <img
+                class="h-[13.6px] w-[13.6px] relative overflow-hidden shrink-0 min-h-[14px]"
+                loading="lazy"
+                alt=""
+                src="/public/logofacebook.svg"
+              />
+
+              <img
+                class="h-[13.6px] w-[13.6px] relative overflow-hidden shrink-0 min-h-[14px]"
+                loading="lazy"
+                alt=""
+                src="/public/logoyoutube.svg"
+              />
+
+              <img
+                class="h-[12.4px] w-[10.8px] relative overflow-hidden shrink-0"
+                loading="lazy"
+                alt=""
+                src="/public/linkedinbrands-1.svg"
+              />
+
+              <img
+                class="h-[13.6px] w-[13.6px] relative overflow-hidden shrink-0 min-h-[14px]"
+                loading="lazy"
+                alt=""
+                src="/public/logotwitter.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </footer> -->
+    </div>
+  </body>
+</html>
