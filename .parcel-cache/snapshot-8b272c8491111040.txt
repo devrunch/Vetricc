@@ -1969,7 +1969,7 @@
 67/home/coderaholic/Downloads/Vetricc-master/node_modules/pirates/lib1719833269511026070 1
 120/home/coderaholic/Downloads/Vetricc-master/node_modules/@swc/helpers/_/_class_static_private_field_spec_get/package.json1719833271115270455 0
 76/home/coderaholic/Downloads/Vetricc-master/node_modules/pirates/package.json1719833269623043247 0
-53/home/coderaholic/Downloads/Vetricc-master/index.html1719862106276361078 0
+53/home/coderaholic/Downloads/Vetricc-master/index.html1719862924727189798 0
 100/home/coderaholic/Downloads/Vetricc-master/node_modules/caniuse-lite/data/features/rel-noreferrer.js1719833271483325924 0
 83/home/coderaholic/Downloads/Vetricc-master/node_modules/entities/lib/encode-trie.js1719833270003101528 0
 72/home/coderaholic/Downloads/Vetricc-master/node_modules/string-width-cjs1719833269619042634 1

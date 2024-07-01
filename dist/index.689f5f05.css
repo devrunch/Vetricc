@@ -5125,8 +5125,28 @@ body {
     height: 80vh;
   }
 
+  .j108\:h-\[30vh\] {
+    height: 30vh;
+  }
+
+  .j108\:h-\[40vh\] {
+    height: 40vh;
+  }
+
+  .j108\:h-\[42vh\] {
+    height: 42vh;
+  }
+
   .j108\:max-h-12 {
     max-height: 3rem;
+  }
+
+  .j108\:max-h-fit {
+    max-height: fit-content;
+  }
+
+  .j108\:min-h-\[42vh\] {
+    min-height: 42vh;
   }
 
   .j108\:w-\[27vw\] {
@@ -5177,6 +5197,10 @@ body {
     width: 80vw;
   }
 
+  .j108\:w-\[200px\] {
+    width: 200px;
+  }
+
   .j108\:min-w-\[27vw\] {
     min-width: 27vw;
   }
@@ -5191,6 +5215,14 @@ body {
 
   .j108\:min-w-\[20vw\] {
     min-width: 20vw;
+  }
+
+  .j108\:max-w-\[300px\] {
+    max-width: 300px;
+  }
+
+  .j108\:max-w-\[350px\] {
+    max-width: 350px;
   }
 
   .j108\:items-center {
