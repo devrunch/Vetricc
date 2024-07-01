@@ -355,6 +355,18 @@
   top: calc(50% - 5.8px);
 }
 
+.top-\[5vh\] {
+  top: 5vh;
+}
+
+.top-\[1vh\] {
+  top: 1vh;
+}
+
+.top-\[0\.5vh\] {
+  top: .5vh;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -925,6 +937,14 @@
 
 .h-px {
   height: 1px;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-6 {
+  height: 1.5rem;
 }
 
 .max-h-full {
@@ -3470,6 +3490,11 @@
   padding-bottom: 2rem;
 }
 
+.px-\[11vw\] {
+  padding-left: 11vw;
+  padding-right: 11vw;
+}
+
 .pb-0 {
   padding-bottom: 0;
 }
@@ -4156,6 +4181,10 @@
 
 .text-xl {
   font-size: 20px;
+}
+
+.text-\[19px\] {
+  font-size: 19px;
 }
 
 .font-black {
@@ -5028,6 +5057,14 @@ body {
     height: 100vh;
   }
 
+  .j108\:h-\[90vh\] {
+    height: 90vh;
+  }
+
+  .j108\:h-\[80vh\] {
+    height: 80vh;
+  }
+
   .j108\:w-\[27vw\] {
     width: 27vw;
   }
@@ -5100,6 +5137,21 @@ body {
     padding-bottom: .25rem;
   }
 
+  .j108\:px-\[15vw\] {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+
+  .j108\:px-\[16vw\] {
+    padding-left: 16vw;
+    padding-right: 16vw;
+  }
+
+  .j108\:px-\[18vw\] {
+    padding-left: 18vw;
+    padding-right: 18vw;
+  }
+
   .j108\:text-\[16px\] {
     font-size: 16px;
   }
@@ -5160,8 +5212,60 @@ body {
     font-size: 15px;
   }
 
+  .j108\:text-\[10vh\] {
+    font-size: 10vh;
+  }
+
+  .j108\:text-\[18vh\] {
+    font-size: 18vh;
+  }
+
+  .j108\:text-\[180vh\] {
+    font-size: 180vh;
+  }
+
   .j108\:leading-\[25px\] {
     line-height: 25px;
+  }
+
+  .j108\:leading-\[60px\] {
+    line-height: 60px;
+  }
+
+  .j108\:leading-\[70px\] {
+    line-height: 70px;
+  }
+
+  .j108\:leading-\[78px\] {
+    line-height: 78px;
+  }
+
+  .j108\:leading-\[85px\] {
+    line-height: 85px;
+  }
+
+  .j108\:leading-\[\] {
+    line-height: ;
+  }
+
+  .j108\:leading-\[30px\] {
+    line-height: 30px;
+  }
+
+  .j108\:leading-\[35px\] {
+    line-height: 35px;
+  }
+
+  .j108\:leading-\[95px\] {
+    line-height: 95px;
+  }
+
+  .j108\:leading-\[105px\] {
+    line-height: 105px;
+  }
+
+  .j108\:leading-\[115px\] {
+    line-height: 115px;
   }
 
   .j108\:text-red-600 {
