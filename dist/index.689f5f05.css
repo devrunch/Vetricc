@@ -444,6 +444,11 @@
   margin-right: auto;
 }
 
+.my-\[70px\] {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -474,6 +479,18 @@
 
 .mt-\[-9\.4px\] {
   margin-top: -9.4px;
+}
+
+.mt-1 {
+  margin-top: .25rem;
+}
+
+.mb-2 {
+  margin-bottom: .5rem;
+}
+
+.mb-1 {
+  margin-bottom: .25rem;
 }
 
 .box-border {
@@ -921,6 +938,18 @@
 
 .h-px {
   height: 1px;
+}
+
+.h-\[83\.7px\] {
+  height: 83.7px;
+}
+
+.h-\[80\.7px\] {
+  height: 80.7px;
+}
+
+.h-\[120\.7px\] {
+  height: 120.7px;
 }
 
 .max-h-full {
@@ -1389,6 +1418,22 @@
 
 .w-screen {
   width: 100vw;
+}
+
+.w-\[80vw\] {
+  width: 80vw;
+}
+
+.w-\[70vw\] {
+  width: 70vw;
+}
+
+.w-\[290\.8px\] {
+  width: 290.8px;
+}
+
+.w-\[250\.8px\] {
+  width: 250.8px;
 }
 
 .min-w-\[100px\] {
@@ -2398,6 +2443,34 @@
   gap: 96.2px;
 }
 
+.gap-\[40\.9px\] {
+  gap: 40.9px;
+}
+
+.gap-\[60\.9px\] {
+  gap: 60.9px;
+}
+
+.gap-\[50\.9px\] {
+  gap: 50.9px;
+}
+
+.gap-\[32\.9px\] {
+  gap: 32.9px;
+}
+
+.gap-\[52\.9px\] {
+  gap: 52.9px;
+}
+
+.gap-\[26px\] {
+  gap: 26px;
+}
+
+.gap-\[27px\] {
+  gap: 27px;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(.5rem * var(--tw-space-x-reverse));
@@ -2987,6 +3060,20 @@
   border-color: #ffffff4d;
 }
 
+.border-\[\#c49349\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(196 147 73 / var(--tw-border-opacity));
+}
+
+.border-\[\#a39278\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(163 146 120 / var(--tw-border-opacity));
+}
+
+.border-\[\#b6a792d7\] {
+  border-color: #b6a792d7;
+}
+
 .bg-\[\#07070A\] {
   --tw-bg-opacity: 1;
   background-color: rgb(7 7 10 / var(--tw-bg-opacity));
@@ -3070,6 +3157,30 @@
 
 .bg-yellowgreen-300 {
   background-color: #96ea631a;
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#456631\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(69 102 49 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#4a6838\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 104 56 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#415833\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(65 88 51 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#34462a\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 70 42 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -3430,6 +3541,11 @@
 .py-px {
   padding-top: 1px;
   padding-bottom: 1px;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pb-0 {
@@ -4114,6 +4230,10 @@
 
 .text-xs-5 {
   font-size: 11.5px;
+}
+
+.text-xl {
+  font-size: 20px;
 }
 
 .font-black {
@@ -4973,12 +5093,40 @@ body {
     margin-bottom: 1.25rem;
   }
 
+  .j108\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .j108\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .j108\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
+  .j108\:mb-\[90px\] {
+    margin-bottom: 90px;
+  }
+
+  .j108\:mt-\[70px\] {
+    margin-top: 70px;
+  }
+
+  .j108\:mb-\[120px\] {
+    margin-bottom: 120px;
+  }
+
   .j108\:h-\[50vh\] {
     height: 50vh;
   }
 
   .j108\:h-\[80vh\] {
     height: 80vh;
+  }
+
+  .j108\:max-h-12 {
+    max-height: 3rem;
   }
 
   .j108\:w-\[27vw\] {
@@ -5001,8 +5149,48 @@ body {
     width: fit-content;
   }
 
+  .j108\:w-\[60vw\] {
+    width: 60vw;
+  }
+
+  .j108\:w-\[55vw\] {
+    width: 55vw;
+  }
+
+  .j108\:w-\[20vw\] {
+    width: 20vw;
+  }
+
+  .j108\:w-\[15vw\] {
+    width: 15vw;
+  }
+
+  .j108\:w-\[1vw\] {
+    width: 1vw;
+  }
+
+  .j108\:w-\[18vw\] {
+    width: 18vw;
+  }
+
+  .j108\:w-\[80vw\] {
+    width: 80vw;
+  }
+
   .j108\:min-w-\[27vw\] {
     min-width: 27vw;
+  }
+
+  .j108\:min-w-\[vw\] {
+    min-width: vw;
+  }
+
+  .j108\:min-w-\[15vw\] {
+    min-width: 15vw;
+  }
+
+  .j108\:min-w-\[20vw\] {
+    min-width: 20vw;
   }
 
   .j108\:items-center {
@@ -5085,6 +5273,18 @@ body {
     font-size: 6vh;
   }
 
+  .j108\:text-xl {
+    font-size: 20px;
+  }
+
+  .j108\:text-smi {
+    font-size: 13px;
+  }
+
+  .j108\:text-sm-8 {
+    font-size: 13.8px;
+  }
+
   .j108\:leading-\[115px\] {
     line-height: 115px;
   }
@@ -5095,6 +5295,10 @@ body {
 
   .j108\:leading-\[35px\] {
     line-height: 35px;
+  }
+
+  .j108\:leading-\[20px\] {
+    line-height: 20px;
   }
 
   .j108\:text-white {
