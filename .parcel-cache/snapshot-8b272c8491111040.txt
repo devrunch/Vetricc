@@ -30,7 +30,7 @@
 68/home/coderaholic/Downloads/Vetricc-master/dist/bottom1.3fdbb84c.svg1719784010000000000 0
 53/home/coderaholic/Downloads/Vetricc-master/.postcssrc1719784010000000000 0
 120/home/coderaholic/Downloads/Vetricc-master/.anima/cache/ffa720b6b5a47eb6ebaa0a9f484e7b1bb1ac8199101fb413a4902cf5344b57ba1719833266710591441 0
-53/home/coderaholic/Downloads/Vetricc-master/.gitignore1719859498546005416 0
+53/home/coderaholic/Downloads/Vetricc-master/.gitignore1719863020099757479 0
 82/home/coderaholic/Downloads/Vetricc-master/node_modules/postcss/lib/lazy-result.js1719833269979097847 0
 84/home/coderaholic/Downloads/Vetricc-master/node_modules/postcss/lib/stringifier.d.ts1719833270511178767 0
 79/home/coderaholic/Downloads/Vetricc-master/node_modules/postcss/lib/postcss.mjs1719833270343153224 0
@@ -1969,7 +1969,7 @@
 67/home/coderaholic/Downloads/Vetricc-master/node_modules/pirates/lib1719833269511026070 1
 120/home/coderaholic/Downloads/Vetricc-master/node_modules/@swc/helpers/_/_class_static_private_field_spec_get/package.json1719833271115270455 0
 76/home/coderaholic/Downloads/Vetricc-master/node_modules/pirates/package.json1719833269623043247 0
-53/home/coderaholic/Downloads/Vetricc-master/index.html1719862924727189798 0
+53/home/coderaholic/Downloads/Vetricc-master/index.html1719864882382950883 0
 100/home/coderaholic/Downloads/Vetricc-master/node_modules/caniuse-lite/data/features/rel-noreferrer.js1719833271483325924 0
 83/home/coderaholic/Downloads/Vetricc-master/node_modules/entities/lib/encode-trie.js1719833270003101528 0
 72/home/coderaholic/Downloads/Vetricc-master/node_modules/string-width-cjs1719833269619042634 1
